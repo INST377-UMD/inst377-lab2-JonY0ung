@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Super Bowl Prediction</title>
+        <style>
+            body {
+                background-color: darkgrey;
+                font-family: Arial, sans-serif;
+            }
+
+            .input-container {
+                margin-bottom: 15px; 
+                font-size: 18px;
+            }
+
+            .input-container input {
+                padding: 8px;
+                width: 250px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .submit-btn {
+                background-color: blue;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+            .submit-btn:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Super Bowl LIX Prediction</h1>
+        <form name="contactForm" action="Forms_Page2.html" method="GET">
+            <div class="input-container">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="input-container">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="input-container">
+                <label for="superbowl-prediction">Super Bowl Prediction:</label>
+                <input type="text" id="superbowl-prediction" name="superbowl-prediction" placeholder="Enter team name" required>
+            </div>
+
+            <input type="submit" class="submit-btn" value="Submit">
+        </form>
+    </body>
+</html>
